@@ -1,0 +1,78 @@
+/* Custom CSS for the HomePage */
+.homepage-container {
+    max-width: auto;
+    margin: 0 auto;
+  }
+  
+  .header1 {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header1 h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .header1 p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .header1 button {
+    padding: 12px 24px;
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .category-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .category-card img {
+    max-width: 90%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .category-card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  /* Responsive CSS */
+  @media screen and (max-width: 768px) {
+    .header h1 {
+      font-size: 28px;
+    }
+  
+    .header p {
+      font-size: 16px;
+    }
+  
+    .header button {
+      padding: 10px 20px;
+      font-size: 14px;
+    }
+  
+    .category-card {
+      padding: 10px;
+    }
+  }
+  

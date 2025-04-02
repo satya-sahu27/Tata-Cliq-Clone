@@ -1,0 +1,28 @@
+{
+  "user": [
+    {
+      "id": "uzumaki",
+      "password": "123456",
+      "email": "ghj@gmail.com",
+      "phone": ""
+    },
+    {
+      "id": "po",
+      "password": "12",
+      "email": "po@gmail.com",
+      "phone": ""
+    },
+    {
+      "id": "kl",
+      "password": "12",
+      "email": "kl@gmail.com",
+      "phone": ""
+    },
+    {
+      "id": "sd",
+      "password": "12",
+      "email": "sd@gmail.com",
+      "phone": ""
+    }
+  ]
+}

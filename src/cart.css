@@ -1,0 +1,31 @@
+/* cart.css */
+
+.cart {
+    width: 100%;
+    max-width: 100%; /* Set the maximum width of the cart to 500px, adjust as needed */
+    margin: 0 auto; /* Center the cart horizontally */
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    position: relative; /* Set the cart position to relative to accommodate absolute positioning of the button */
+  }
+  
+  /* Add responsive styles for smaller screens */
+  @media (max-width: 600px) {
+    .cart {
+      max-width: 100%; /* On smaller screens, set the cart to take up the full width */
+    }
+  }
+  
+  /* Style for the "Buy Now" button */
+  .buy-now-button {
+    position: absolute;
+    bottom: 10px; /* Adjust this value as needed to control the button's vertical position inside the cart */
+    right: 10px; /* Adjust this value as needed to control the button's horizontal position inside the cart */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
